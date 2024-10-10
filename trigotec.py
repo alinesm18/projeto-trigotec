@@ -50,7 +50,7 @@ while True:
         cateto_oposto = float(input("digite o comprimento do cateto oposto: "))
         cateto_adjacente = float(input("digite o comprimento do cateto adjacente: "))
         hipotenusa = trigotec.pitagoras(cateto_oposto, cateto_adjacente)
-        print(f"A hipotenusa é: {hipotenusa:.2f}")
+        print(f"a hipotenusa é: {hipotenusa:.2f}")
 
     elif escolha == '2':
         cateto_oposto = float(input("digite o comprimento do cateto oposto: "))
@@ -60,22 +60,22 @@ while True:
         print(f"hipotenusa: {hipotenusa:.2f}")
         print(f"seno: {seno:.2f}")
         print(f"cosseno: {cosseno:.2f}")
-        print(f"tangente: {tangente:.2f}" if tangente is not None else "Tangente: Indefinido")
+        print(f"tangente: {tangente:.2f}" if tangente is not None else "tangente: indefinido.")
 
     elif escolha == '3':
-        angle = float(input("Digite o ângulo em graus: "))
+        angle = float(input("digite o ângulo em graus: "))
         seno = trigotec.seno(angle)
-        print(f"O seno de {angle}° é: {seno:.2f}")
+        print(f"o seno de {angle}° é: {seno:.2f}")
 
     elif escolha == '4':
         angle = float(input("digite o ângulo em graus: "))
         cosseno = trigotec.cosseno(angle)
-        print(f"O cosseno de {angle}° é: {cosseno:.2f}")
+        print(f"o cosseno de {angle}° é: {cosseno:.2f}")
 
     elif escolha == '5':
         angle = float(input("digite o ângulo em graus: "))
         tangente = trigotec.tangente(angle)
-        print(f"A tangente de {angle}° é: {tangente:.2f}")
+        print(f"a tangente de {angle}° é: {tangente:.2f}")
 
     elif escolha == '6':
         print("saindo da trigotec. até logo!")
