@@ -4,7 +4,7 @@ class Trigotec:
         
     def pitagoras(self, cateto_oposto, cateto_adjacente):
         """calcula a hipotenusa usando o teorema de pitágoras."""
-        hipotenusa = math.sqrt(cateto_oposto*2 + cateto_adjacente*2)
+        hipotenusa = math.sqrt(cateto_oposto**2 + cateto_adjacente**2)
         return hipotenusa
 
     def calcular_trigonometria(self, cateto_oposto, cateto_adjacente):
